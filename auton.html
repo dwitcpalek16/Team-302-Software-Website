@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+<link rel="stylesheet" href="auton stylesheet.css">
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>Autonomous Routines</h1>
+</div>
+
+<div class="body">
+<ul>
+<li><p>Using text files to command the robot during autonomous period allows
+us to quickly and easily change what it does and fine tune the distance the 
+robot travels</p></li>
+<ul>
+<li><p>Changing a text file doesn't require us to recompile the robot code in
+order to run the robot. This means that we can change one number and completely
+change what the robot does instead of going into the code and changing the
+order of actions</p></li>
+</ul>
+<li><p>In fact, it is quite simple to write an autonomous routine. Go to 
+<a href="https://docs.google.com/document/d/1OfBRSGNgQNdEvVWN_jkpCJ4g71-odb4KVF_UqCZFCe0/edit?usp=drive_web">
+this link</a> to learn more.</p></li>
+</ul>
+<p>Here is an example auton file that moves the robot forward 6 feet:</p>
+
+<div class="row">
+<div class="col-md-4">
+<img src="auton file example.png" style="width:100%;height:100%;">
+</div>
+<div class="col-md-8">
+<ul>
+<li><p>The first number tells which subsystem to control (1 is the drive-train)</p></li>
+<li><p>The second number tells which action to perform (1 is drive forward for the drive system)</p></li>
+<li><p>The third number tells the drive system how far to travel (in this case it will go 6 feet forward)</p></li>
+<li><p>The last number tells how fast the robot will travel (it is a max speed of up to 21)</p></li>
+<li><p>Generally the format is just <i>subsystem, inputs</i></p></li>
+<li><p>Additionally, the drive system has a speed controller which creates the second half of a trapezoidal motion profile.
+This ensures that the robot stops right at its target distance.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</body>

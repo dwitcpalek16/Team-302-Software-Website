@@ -1,0 +1,49 @@
+.header h1 {
+	color: green;
+	border-bottom: 3px solid green;
+	padding-top:50px;
+	background: white;
+}
+
+p {
+	color: white;
+}
+
+.header {
+	display:inline;
+	padding: 0px;
+}
+
+.row {
+	background: green;
+}
+
+.header img {
+	padding-left:100px;
+}
+
+.design img {
+	padding: 10px;
+}
+
+.design {
+}
+
+.cool {
+}
+
+.code {
+}
+
+.team {
+	padding-bottom: 300px
+}
+
+li {
+	color: black;
+}
+
+.navigation li {
+	display:inline;
+	padding: 0px;
+}
